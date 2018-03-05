@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="289.0" styleClass="root" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GestionAchatController">
+   <children>
+      <Button fx:id="buttonLaisser" layoutX="187.0" layoutY="347.0" mnemonicParsing="false" onAction="#buttonLaisser" styleClass="Button" stylesheets="@../application/application.css" text="Laisser" />
+      <ImageView fx:id="imageCase" fitHeight="286.0" fitWidth="201.0" layoutX="46.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="buttonAcheter" layoutX="29.0" layoutY="347.0" mnemonicParsing="false" onAction="#buttonAcheter" styleClass="Button" stylesheets="@../application/application.css" text="Acheter" />
+   </children>
+</AnchorPane>
